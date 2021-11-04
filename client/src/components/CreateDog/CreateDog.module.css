@@ -1,0 +1,205 @@
+.back{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+}
+
+.form{
+  margin-top: 20px;
+  background-image: url('../Paginate/fondo.png');
+  background-color: rgba(0, 0, 0, 0.794);
+  border-radius: 10px;
+  border: solid 2px rgb(19, 18, 18);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 730px;
+  color: rgb(250, 243, 243);
+  box-shadow: 0px 0px 10px rgba(15, 15, 15, 0.945);
+}
+
+.formTxt{
+  color: hsl(0, 27%, 92%);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  margin: 5px;
+  margin-right: 15px;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.formInt{
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px;
+  margin: 2px;
+  padding: 5px;
+  width: 380px;
+  height: 360px
+}
+
+.input{
+  font-size: 18px;
+  margin: 2px;
+  margin-bottom: 5px;
+  width: 98%;
+  text-align: center;
+}
+
+.minmaxBack{
+  color: aliceblue;
+ 
+}
+
+.mimMaxSelector{
+  margin: 5px;
+  font-size: 15px;
+  width: auto;
+  height:20px;
+  margin-bottom: 10px;
+}
+
+.tempSelect{
+  color: hsl(0, 27%, 92%);
+  font-size: 20px;
+  font-weight: bold ;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  width: 300px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+.tempcontains{
+  font-weight:normal;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgba(87, 85, 85, 0.541);
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start ;
+  width:100%;
+  height: 150px;
+  border: solid 1px rgb(12, 12, 12);  
+}
+
+.tempback{
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+
+}
+.btnTemp{
+  font-size: 16px;
+  color: rgb(243, 236, 236);
+  background-color: rgba(18, 19, 18, 0.678);
+  border-radius: 5px;
+  border: solid 1px rgb(253, 249, 249);
+  width: auto;
+  padding: 5px;
+  height: 25px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.btnTemp:hover{
+  background-color: rgba(214, 32, 32, 0.876);
+  color: black;
+}
+
+.btnCreate{
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  border: solid 2px rgb(253, 248, 248);
+  background-color: rgba(29, 31, 29, 0.335);
+  box-shadow: 0px 1px 10px rgba(248, 242, 242, 0.356);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.btnCreate:hover{
+  background-color: rgb(15, 117, 24);
+  box-shadow: 0px 0px 15px rgba(248, 242, 242, 0.356);
+  transform: translateY(-3%);
+}
+
+.alert{
+  margin: auto;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  color: white;
+  border: solid 2px rgb(238, 133, 133);
+  background-color: rgba(29, 31, 29, 0.335);
+}
+
+.alettBtn{
+  margin-left: 5px;
+}
+
+.backSucces{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.succesCreate{
+  padding: 20px;
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.794);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border:solid 1px white;
+  width: 500px;
+  height: 200px;
+}
+
+.succesBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  color: white;
+  border: solid 2px rgb(253, 248, 248);
+  background-color: rgba(29, 31, 29, 0.335);
+}
+
+.succesBtn:hover{
+  background-color: rgba(116, 109, 109, 0.959);
+}
+
+.homeBack{
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  border: solid 2px rgb(253, 248, 248);
+  background-color: rgba(29, 31, 29, 0.335);
+  box-shadow: 0px 1px 10px rgba(248, 242, 242, 0.356);
+  cursor: default;
+}

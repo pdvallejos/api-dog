@@ -1,0 +1,105 @@
+.nav{
+    background-image: url('./fondo.png');
+    background-repeat: repeat-y;
+    justify-content: flex-start;
+    width: 170px;
+    height: 70%;
+    margin-top: 173px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 0;
+    grid-column: 1;
+    position: fixed;
+    display: flex;
+    border-radius: 0px 35px 35px 0px; 
+}
+ 
+.p_ul {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.p_li {
+    background: linear-gradient(#462e01, #ffebeb, #c78201);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border: solid 1px #462e01;
+    width: 30px;
+    height: 30px;
+    /* color: #000000; */
+    border-radius: 30px;
+    color: #ffebeb;
+    margin-left: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.p_li:hover {
+    color: #ffebeb;
+    background: #3a2910;
+    box-shadow: 0 0 010px #3a2910, 0 0 10px #3a2910,0 0 40px #3a2910,0 0 60px #3a2910,0 0 80px #3a2910,0 0 100px #3a2910;
+    transition-delay:1s;
+    transition: 0.5ms;
+}
+.p_button:focus{
+    background: rgb(233, 152, 120);
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.p_button{
+    background: none;
+    border: none;
+    margin-left: 0;
+}
+.loader{
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    padding: 1px 15px;
+    color:#000000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.2s;
+    background: linear-gradient(#462e01, #ffebeb, #c78201);
+    border: solid 1px #462e01;
+    border-radius: 150px;
+    margin-left: 0;
+}
+.loader:hover{
+    color: white;
+    background: #3a2910;
+    box-shadow: 0 0 010px #3a2910, 0 0 10px #3a2910,0 0 40px #3a2910,0 0 60px #3a2910,0 0 80px #3a2910,0 0 100px #3a2910;
+    transition-delay:1s;
+    transition: 0.5ms;
+}
+.loader2{
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    padding: 1px 15px;
+    color:#000000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.2s;
+    background: linear-gradient(#462e01, #ffebeb, #c78201);
+    border: solid 1px #462e01;
+    border-radius: 150px;
+    margin-left: 0;
+    position: absolute;
+    margin-top: 570px;
+}
+.loader2:hover{
+    color: white;
+    background: #3a2910;
+    box-shadow: 0 0 010px #3a2910, 0 0 10px #3a2910,0 0 40px #3a2910,0 0 60px #3a2910,0 0 80px #3a2910,0 0 100px #3a2910;
+    transition-delay:1s;
+    transition: 0.5ms;
+}

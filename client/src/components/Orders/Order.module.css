@@ -1,0 +1,11 @@
+
+.spanSelect{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: rgb(251, 251, 253);
+    font-weight: bold;
+    font-size: 12px;
+    border: solid 2px black;
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  

@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,300px) ;
+    gap: 4%;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 300px;
+    padding-left: 20%;
+    margin-left: 10px;
+    justify-content: center;
+    justify-items: center;
+    width:70%;
+    height: 100%;
+    list-style: none;
+    z-index: -3;
+    text-decoration: none;
+    outline: none;
+    
+  }
+  @media screen and (max-width: 480px){
+   
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(auto, auto)) ;
+      gap: 1%;
+      width: 65%;
+      height: 100vw;
+      justify-content: center;
+      margin-left: 42%;
+      text-decoration: none;
+    }
+  }

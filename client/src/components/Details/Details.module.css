@@ -1,0 +1,108 @@
+.back{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin: 10px;
+  
+    margin-top: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  
+  }
+  
+  .card{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding-left: 10%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.787);
+    box-shadow: 0px 0px 15px rgba(15, 15, 15, 0.945);
+    background-image: url('../Paginate/fondo.png');
+  }
+  
+  .title{
+    font-family:sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+  
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    height:500px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    margin-right: 200px;
+    
+  
+  }
+  
+  .img{
+    margin: 5%;
+    margin-right: 5px;
+    margin: 20px;
+    margin-left: 2px;
+    width:500px;
+    height: 500px ;
+    border-radius: 5px;
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 1px 10px rgba(10, 10, 10, 0.877);
+    cursor: default;
+  
+  }
+  
+  .details{
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+   
+    width: 280px;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    
+  
+  } 
+  .temp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight:200;
+    margin-bottom: 300px;
+  }
+  .btn{
+    border: solid 1px white;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    left: 90%;
+    top: 10px;
+    background-color:rgba(0, 0, 0, 0) ;
+    color: aliceblue;
+    width: 50px;
+    height: 40px;
+  }
+  .btn:hover{
+    
+    transform: translateY(-3%);
+    background-color: rgba(255, 251, 251, 0.589);
+    color: black;
+  }
+  hr{
+    color: rgb(127, 128, 129);
+  }

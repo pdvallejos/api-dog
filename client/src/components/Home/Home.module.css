@@ -1,0 +1,130 @@
+body{
+    background-image: url("./fondo2.jpeg");
+    background-attachment: fixed;
+  
+  }
+  
+  .back{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-items: center;
+    
+  }
+  .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: 1%;
+    margin: 20px;
+    
+  }
+  .arrow{
+    margin: 10px;
+    border: solid 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.555);
+  }
+  .arrow:hover{
+    background-color: rgba(8, 8, 8, 0.431);
+    color: rgb(246, 246, 246);
+  }
+  .paginate{
+    align-items: flex-end ;
+    justify-content: center;
+    position: relative;
+    left: 35px;
+    height: 50px;
+    width: 50%;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-top: 2%;
+  }
+  .num{
+    pointer-events: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px;
+    border-radius: 6px;
+    width: 30px;
+    height: 40px;
+    transition: 1s;
+    background-color: rgba(15, 15, 15, 0.842);
+    color:rgb(228, 219, 219);
+    
+  }
+  .numberPag{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(15, 15, 15, 0.842);
+    border: solid 3px;
+    border-radius: 6px;
+    color:rgb(228, 219, 219);
+   
+    width: 60px;
+    height: 40px;
+  }
+  .notFoundBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 600px;
+   
+  }
+  .notFound{
+    display: flex;
+    padding: 20px;
+    color: white;
+    background-color: rgba(15, 15, 15, 0.842);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center ;
+    border:solid 2px white;
+    width: 500px;
+    height: 150px;
+  }
+  .notFoundBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+  
+  
+    border-radius: 5px;
+    color: white;
+    border: solid 2px rgb(253, 248, 248);
+    background-color: rgba(29, 31, 29, 0.335);
+  
+  }
+  .notFoundBtn:hover{
+    background-color: rgba(116, 109, 109, 0.959);
+    
+  }
+  @media screen and (max-width: 480px){
+   
+    body{
+      width: 60vw ;
+      height: auto;
+    }
+    .paginate{
+      display: flex;
+      position: relative;
+      top: 500%;
+      margin-top: 0;
+      margin-left: -10%;
+      
+    }
+    
+  }
