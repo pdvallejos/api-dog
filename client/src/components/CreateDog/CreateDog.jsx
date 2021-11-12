@@ -352,7 +352,7 @@ export default function Create() {
                   <option value="">Select</option>
                   {temperament !== undefined &&
                     temperament.map((e, idx) => (
-                      <option key={idx} name={e.name} value={e.id}>
+                      <option key={idx} name={e.name} value={parseInt(e.id)}>
                         {e.name}
                       </option>
                     ))}

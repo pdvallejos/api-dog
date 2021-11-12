@@ -33,10 +33,13 @@ try {
     }
   })
   dbDogs = dbDogs.map(d => {
+ 
+
     let result = []
-    d.Temperament?.forEach(e => {
+    d.Temperaments.forEach(e => {
       result.push(e.name)
     })
+    console.log(result, 'result')
     return {
       id: d.id,
       image:d.image,
@@ -108,7 +111,7 @@ try {
         let result = []
         dbFilter.push(dbRes.dataValues)
         dbFilter = dbFilter.map(e =>  {
-          e.Temperament.forEach(e => {
+          e.Temperaments.forEach(e => {
           result.push(e.name)
       })
         return {

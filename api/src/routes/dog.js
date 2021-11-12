@@ -22,7 +22,7 @@ try {
    let apiTemp = await dog.addTemperaments(temperament)
    
   
-   res.json('Your Dog has been created successfully')
+   res.json(apiTemp)
 
 } catch (error) {
   console.log(error)
